@@ -35,9 +35,19 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       padding: 30px 20px;
       margin-top: 20px;
+      text-align: right; /* لضبط اتجاه النص داخل الكرت */
     }
     .contact-info {
       margin: 20px 0;
+      font-size: 1.2em;
+      direction: rtl;
+    }
+    .contact-icon {
+      unicode-bidi: isolate;
+      direction: ltr;
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 1.3em;
     }
     a {
       text-decoration: none;
@@ -54,6 +64,7 @@
       text-decoration: none;
       font-size: 1em;
       transition: background-color 0.3s ease;
+      margin-top: 15px;
     }
     .button:hover {
       background-color: #004a99;
@@ -71,8 +82,8 @@
     <h1>مركز طب وجراحة العيون بكفرالشيخ</h1>
     <div class="card">
       <div class="contact-info">
-        📞 <a href="tel:+20473255238">0473255238</a><br /><br />
-        📞 <a href="tel:+20473255230">0473255230</a>
+        <span class="contact-icon">📞</span><a href="tel:+20473255238">0473255238</a><br /><br />
+        <span class="contact-icon">📞</span><a href="tel:+20473255230">0473255230</a>
       </div>
       <a class="button" href="https://www.facebook.com/share/16ipEHxCUn/" target="_blank">
         زيارة صفحتنا على فيسبوك
