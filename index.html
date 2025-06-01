@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>مركزنا الطبي</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مركز طب وجراحة العيون بكفرالشيخ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Cairo', sans-serif;
-      background-color: #f0f4f8;
-      color: #222;
+      background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 50px 20px;
-    }
-    h1 {
       color: #2c3e50;
     }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #0069c0;
+      margin-bottom: 20px;
+    }
     .card {
-      background-color: #fff;
-      border-radius: 15px;
-      padding: 30px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      display: inline-block;
-      max-width: 400px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px 20px;
+      margin-top: 20px;
+    }
+    .contact-info {
+      margin: 20px 0;
     }
     a {
-      display: block;
-      margin: 15px 0;
-      color: #3498db;
       text-decoration: none;
+      color: #0069c0;
+      font-weight: bold;
       font-size: 1.2em;
     }
-    a:hover {
-      text-decoration: underline;
+    .button {
+      display: inline-block;
+      background-color: #0069c0;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #004a99;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>مرحباً بكم في مركزنا</h1>
-    <p>📞 <a href="tel:+20473255238">٠٤٧٣٢٥٥٢٣٨</a></p>
-    <p>📞 <a href="tel:+20473255230">٠٤٧٣٢٥٥٢٣٠</a></p>
-    <p>🌐 <a href="https://www.facebook.com/share/16ipEHxCUn/" target="_blank">صفحتنا على فيسبوك</a></p>
+  <div class="container">
+    <h1>مركز طب وجراحة العيون بكفرالشيخ</h1>
+    <div class="card">
+      <div class="contact-info">
+        📞 <a href="tel:+20473255238">0473255238</a><br><br>
+        📞 <a href="tel:+20473255230">0473255230</a>
+      </div>
+      <a class="button" href="https://www.facebook.com/share/16ipEHxCUn/" target="_blank">
+        زيارة صفحتنا على فيسبوك
+      </a>
+    </div>
+    <footer>
+      جميع الحقوق محفوظة © مركز العيون كفرالشيخ
+    </footer>
   </div>
 </body>
 </html>
